@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t zemil/docker-react -f dev.Dockerfile .
+
+script:
+  - docker run zemil/docker-react npm run test -- --coverage
