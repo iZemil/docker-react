@@ -1,5 +1,7 @@
 # Docker practice
 
+Docker, Docker Compose, Travis CI, AWS
+
 `sudo docker build -f dev.Dockerfile .` - custom docker file
 
 `sudo docker run -p 3000:3000 <id>`
